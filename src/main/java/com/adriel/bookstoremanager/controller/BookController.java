@@ -6,9 +6,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.adriel.bookstoremanager.dto.BookDTO;
 import com.adriel.bookstoremanager.dto.MessageResponseDTO;
-import com.adriel.bookstoremanager.entity.Book;
 import com.adriel.bookstoremanager.service.BookService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/books")
@@ -24,8 +26,8 @@ public class BookController {
 
 
     @PostMapping
-    public MessageResponseDTO create(@RequestBody Book book) {
-        return bookService.create(book);
+    public MessageResponseDTO create(@RequestBody @Valid BookDTO bookDTO) {
+        return bookService.create(bookDTO);
     }
     
 }
