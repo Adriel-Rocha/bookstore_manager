@@ -36,8 +36,8 @@ mvn spring-boot:run
 ```
 
 A API poderá ser acessada em [localhost:8080/api/v1/books](http://localhost:8080/api/v1/books).
-O Swagger poderá ser visualizado em [http://localhost:8080/api/v1/books/swagger-ui.html](http://localhost:8080/api/v1/books/swagger-ui.html)
-O projeto mplantado no Heroku poderá ser acessado em [https://bookstore-manager-df0ea7d704f0.herokuapp.com/](https://bookstore-manager-df0ea7d704f0.herokuapp.com/).
+O Swagger poderá ser visualizado em [http://localhost:8080/api/v1/books/swagger-ui.html](http://localhost:8080/api/v1/books/swagger-ui.html).
+O projeto implantado no Heroku poderá ser acessado em [https://bookstore-manager-df0ea7d704f0.herokuapp.com/](https://bookstore-manager-df0ea7d704f0.herokuapp.com/).
 O Swagger no Heroku poderá ser visualizado em [https://bookstore-manager-df0ea7d704f0.herokuapp.com/swagger-ui.html](https://bookstore-manager-df0ea7d704f0.herokuapp.com/swagger-ui.html)
 
 ## API Endpoints
